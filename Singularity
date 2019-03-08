@@ -1,7 +1,5 @@
-#Bootstrap: docker
-#From: ubuntu:18.04
-Bootstrap: localimage
-From: ../../ubuntu-1804-updated_container/ubuntu.simg
+Bootstrap: docker
+From: ubuntu:18.04
 
 %labels
 MAINTAINER darachm
